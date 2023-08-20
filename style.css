@@ -80,7 +80,7 @@ body {
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
-  overflow: hidden;
+ 
 }
 .header-list-nav ul {
   display: flex;
@@ -663,4 +663,9 @@ form button:hover {
 .success-message {
   color: #2ecc71;
   display: none;
+}
+@media only screen and (min-width: 400px) {
+ .header-list{
+  font-size: 20px;
+ }
 }
