@@ -78,7 +78,9 @@ body {
 .header-list {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
+  overflow: hidden;
 }
 .header-list-nav ul {
   display: flex;
@@ -307,6 +309,7 @@ span {
 }
 #banners .big-banners {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
@@ -354,6 +357,7 @@ span {
 }
 #banners .small-banners {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
@@ -367,6 +371,7 @@ span {
   justify-content: center;
   padding: 25px;
   background-size: cover;
+  flex-wrap: wrap;
 }
 #banners .small-banners h2 {
   font-size: 25px;
@@ -654,4 +659,3 @@ form button:hover {
   color: #2ecc71;
   display: none;
 }
-
